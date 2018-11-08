@@ -9,10 +9,10 @@
 <img src="https://images-na.ssl-images-amazon.com/images/I/71A+s8e7ikL.png" alt="No Name Face" width="300" length="300">
 <p>Which is your favorite <em>Lifehouse</em> album?</p>
 <form action="/action_page.php">
-  <input type="song" name="album" onclick="myFunction(this.value)" value="No Name Face">No Name Face<br>
-  <input type="song" name="album" onclick="myFunction(this.value)" value="Lifehouse">Lifehouse<br>
-  <input type="song" name="album" onclick="myFunction(this.value)" value="Who We Are">Who We Are<br>
-  <input type="song" name="album" onclick="myFunction(this.value)" value="Smokes and  Mirrors">Smokes and Mirrors<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="No Name Face">No Name Face<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Lifehouse">Lifehouse<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Who We Are">Who We Are<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Smokes and  Mirrors">Smokes and Mirrors<br>
 
 
   Your favorite song is: <input type="text" id="result">
@@ -20,8 +20,8 @@
 </form>
 
 <script>
-function myFunction(album) {
-    document.getElementById("result").value = album;
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
 }
 </script>
 
